@@ -1,0 +1,148 @@
+/********* BEBUG LAYOUT *********/
+
+/********** DEBUG RULES *********/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+ol,
+li,
+menu{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+img{
+    max-height: 100%;
+    max-width: 100%;
+}
+
+/********* HEADER *********/
+
+
+header{
+    background-color: rgb(255,105,0,255);
+    margin-bottom: 50px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+.section-header{
+    padding: 10px;
+}
+.col-link{
+    flex-basis: 33%;
+}
+.col-logo{
+    flex-basis: 33%;
+}
+.col-icons{
+    flex-basis: 33%;
+}
+.link-list-flex{
+    display: flex;
+    justify-content: flex-start;
+}
+.link-list-items > a{
+    color: white;
+    align-self: center;
+    padding-right: 5px;
+    font-size: 15px;
+}
+.logo-flex{
+    display: flex;
+    justify-content: center;
+}
+.img-logo{
+    width: 100px;
+}
+.link-icon-flex{
+    display: flex;
+    justify-content: flex-end;
+}
+.link-icon-items > a{
+    color: white;
+    align-self: center;
+    padding-right: 5px;
+}
+.icon-flex{
+    display: flex;
+    justify-content: center;
+}
+
+
+/********* MAIN ***********/
+
+
+.row .col{
+    flex-basis: 32%;
+    margin-left: 8px;
+}
+.row:nth-child(3n){
+    margin-left: 0;
+}
+.relative{
+    position: relative;
+}
+.heart{
+    position: absolute;
+    bottom: 515px;
+    left: calc(100% - 32px);
+    padding: 5px 8px;
+    background-color: white;
+    color: red;
+}
+.discount{
+    position: absolute;
+    bottom: 50px;
+    left: 10px;
+    padding: 20px, 20px;
+    background-color: red;
+    color: white;
+}
+.eco{
+    position: absolute;
+    bottom: 50px;
+    left: 58px;
+    background-color: green;
+    color: white;
+}
+.eco1{
+    position: absolute;
+    bottom: 50px;
+    left: 10px;
+    background-color: green;
+    color: white;
+}
+.merch{
+    font-weight: 500;
+    font-size: 13px;
+    color: grey;
+    padding-bottom: 3px;
+}
+.model{
+    font-weight: 700;
+    padding-bottom: 3px;
+}
+.price{
+    color: red;
+}
+.old-price{
+    color: black;
+    text-decoration: line-through;
+    padding-bottom: 7px;
+}
+.text > ul{
+    padding-bottom: 30px;
+}
