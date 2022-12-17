@@ -36,7 +36,7 @@ header{
     margin-bottom: 50px;
     position: sticky;
     top: 0;
-    z-index: 1;
+    z-index: 99;
 }
 .section-header{
     padding: 10px 0;
@@ -100,6 +100,15 @@ header{
 .relative{
     position: relative;
 }
+.hover{
+    position: absolute;
+    top: 0px;
+    z-index: -1;
+}
+.relative:hover .hover{
+    z-index: 7;
+}
+
 .heart{
     position: absolute;
     bottom: 515px;
@@ -107,28 +116,32 @@ header{
     padding: 5px 8px;
     background-color: white;
     color: red;
+    z-index: 98;
 }
 .discount{
     position: absolute;
     bottom: 50px;
-    left: 10px;
+    left: 5px;
     padding: 20px, 20px;
     background-color: red;
     color: white;
+    z-index: 98;
 }
 .eco{
     position: absolute;
     bottom: 50px;
-    left: 58px;
+    left: 55px;
     background-color: green;
     color: white;
+    z-index: 98;
 }
 .eco1{
     position: absolute;
     bottom: 50px;
-    left: 10px;
+    left: 5px;
     background-color: green;
     color: white;
+    z-index: 98;
 }
 .merch{
     font-weight: 500;
