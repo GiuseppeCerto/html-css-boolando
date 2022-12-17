@@ -1,0 +1,217 @@
+/********* BEBUG LAYOUT *********/
+
+/********** DEBUG RULES *********/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+ol,
+li,
+menu{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+img{
+    max-height: 100%;
+    max-width: 100%;
+}
+
+/********* HEADER *********/
+
+
+header{
+    background-color: rgb(255,105,0,255);
+    margin-bottom: 50px;
+    position: sticky;
+    top: 0;
+    z-index: 99;
+}
+.section-header{
+    padding: 10px 0;
+}
+.col-link{
+    flex-basis: 33%;
+}
+.col-logo{
+    flex-basis: 33%;
+}
+.col-icons{
+    flex-basis: 33%;
+}
+.link-list-flex{
+    display: flex;
+    justify-content: flex-start;
+}
+.link-list-items > a{
+    color: white;
+    align-self: flex-enš;
+    padding-right: 8px;
+    font-size: 15px;
+}
+.logo-flex{
+    display: flex;
+    justify-content: center;
+}
+.img-logo{
+    width: 100px;
+}
+.link-icon-flex{
+    display: flex;
+    justify-content: flex-end;
+}
+.link-icon-items > a{
+    color: white;
+    align-self: flex-end;
+    padding-left: 10px;
+}
+.icon-flex{
+    display: flex;
+    justify-content: center;
+}
+
+
+/********* MAIN ***********/
+
+
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-self: start;
+}
+.main .col{
+    flex-basis: 33%;
+    margin-left: 4px;
+}
+.row:nth-child(3n){
+    margin-left: 0;
+}
+.relative{
+    position: relative;
+}
+.hover{
+    position: absolute;
+    top: 0px;
+    z-index: -1;
+}
+.relative:hover .hover{
+    z-index: 7;
+}
+
+.heart{
+    position: absolute;
+    bottom: 515px;
+    left: calc(100% - 32px);
+    padding: 5px 8px;
+    background-color: white;
+    color: red;
+    z-index: 98;
+}
+.discount{
+    position: absolute;
+    bottom: 50px;
+    left: 5px;
+    padding: 20px, 20px;
+    background-color: red;
+    color: white;
+    z-index: 98;
+}
+.eco{
+    position: absolute;
+    bottom: 50px;
+    left: 55px;
+    background-color: green;
+    color: white;
+    z-index: 98;
+}
+.eco1{
+    position: absolute;
+    bottom: 50px;
+    left: 5px;
+    background-color: green;
+    color: white;
+    z-index: 98;
+}
+.merch{
+    font-weight: 500;
+    font-size: 13px;
+    color: grey;
+    padding-bottom: 3px;
+}
+.model{
+    font-weight: 700;
+    padding-bottom: 3px;
+}
+.price{
+    color: red;
+}
+.old-price{
+    color: black;
+    text-decoration: line-through;
+    padding-bottom: 7px;
+    padding-left: 4px;
+}
+.text > ul{
+    padding-bottom: 30px;
+}
+
+
+/********* FOTER **********/
+
+.footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.footer .link-main{
+    flex-basis: 50%;
+    align-self: flex-start;
+}
+footer{
+    background-color: rgba(26,26,26,255);
+    padding-bottom: 13px;
+}
+.logo-foot{
+    color: white;
+    padding-bottom: 10px;
+    font-size: 10px;
+}
+.info-list-flex{
+    display: flex;
+    justify-content:
+}
+.info-list-item{
+    text-decoration: none;
+    color: white;
+    padding-right: 3px;
+    font-size: 10px;
+    padding-right: 7px;
+}
+.info-list{
+    color: white;
+}
+.link-main{
+    margin-top: 10px;
+}
+.link-visit{
+    color: white;
+    font-size: 10px;
+    padding-top: 10px;
+    padding-bottom: 6px;
+}
+.link-social > a{
+    margin-left: 4px;
+    color: white;
+    font-size: 15px;
+}
