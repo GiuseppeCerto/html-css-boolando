@@ -34,8 +34,8 @@ img{
 header{
     background-color: rgb(255,105,0,255);
     margin-bottom: 50px;
-    position: sticky;
-    top: 0;
+    position: fixed;
+    width: 100%;
     z-index: 99;
 }
 .section-header{
@@ -89,6 +89,7 @@ header{
     display: flex;
     flex-wrap: wrap;
     justify-self: start;
+    padding-top: 70px;
 }
 .main .col{
     flex-basis: 32%;
