@@ -91,11 +91,14 @@ header{
     justify-self: start;
 }
 .main .col{
-    flex-basis: 33%;
-    margin-left: 4px;
+    flex-basis: 32%;
+    margin-right: 23px;
 }
-.row:nth-child(3n){
-    margin-left: 0;
+.main > .image3{
+    margin-right: 0px;
+}
+.main > .image6{
+    margin-right: 0px;
 }
 .relative{
     position: relative;
@@ -108,21 +111,23 @@ header{
 .relative:hover .hover{
     z-index: 7;
 }
-
 .heart{
     position: absolute;
     bottom: 515px;
     left: calc(100% - 32px);
     padding: 5px 8px;
     background-color: white;
-    color: red;
+    color: black;
     z-index: 98;
+}
+.heart:hover{
+    color: red;
 }
 .discount{
     position: absolute;
     bottom: 50px;
-    left: 5px;
-    padding: 20px, 20px;
+    left: 0px;
+    padding: 3px 10px 3px 10px;
     background-color: red;
     color: white;
     z-index: 98;
@@ -130,7 +135,8 @@ header{
 .eco{
     position: absolute;
     bottom: 50px;
-    left: 55px;
+    left: 65px;
+    padding: 3px 10px 3px 10px;
     background-color: green;
     color: white;
     z-index: 98;
@@ -138,7 +144,8 @@ header{
 .eco1{
     position: absolute;
     bottom: 50px;
-    left: 5px;
+    left: 0px;
+    padding: 3px 10px 3px 10px;
     background-color: green;
     color: white;
     z-index: 98;
